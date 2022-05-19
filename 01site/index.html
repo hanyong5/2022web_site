@@ -13,8 +13,7 @@
         *{margin: 0;padding: 0;}
         li{list-style:none;}
         .clearfix:after{content:"";display: block;clear: both;}
-        a:link{color:#333;text-decoration:none}
-        a:visited{color:#333}
+        a:link,a:visited{color:#333;text-decoration:none}
         a:hover{color:#333}
         img{display: block;}
 
@@ -67,9 +66,14 @@
         .sec_2st{width: 1440px;margin: 0 auto;}
         .sec_2st>.left{float: left;width: 440px;}
         .sec_2st>.right{float: left;width: 1000px;}
-        .sec_2st>.right li{float: left;margin-right: 16px;margin-bottom: 16px;width: 492px;}
-        .sec_2st>.right li:nth-child(2){margin-right: 0;}
+        .sec_2st>.right li{
+            float: left;margin-right: 16px;margin-bottom: 16px;
+            width: 492px;height: 127px;background-color:pink;
+        }
+        .sec_2st>.right li:nth-child(2),
         .sec_2st>.right li:nth-child(4){margin-right: 0;}
+        
+        .sec_2st>.right li:last-child{width: 100%;margin-bottom:0;}
 
         
         /* common */
@@ -77,6 +81,8 @@
         h3{font-size: 22px !important;}
         .bg1{background-color: #f6f6f6;}
         .py50{padding-top: 50px !important;padding-bottom: 50px !important;}
+        .py70{padding-top: 70px !important;padding-bottom: 70px !important;}
+        .py130{padding-top: 130px !important;padding-bottom: 130px !important;}
 
     </style>
 </head>
@@ -145,7 +151,7 @@
             </div>
         </div>
     </section>
-    <div class="bg1 py50">
+    <div class="bg1 py130">
         <section class="sec_2st clearfix">
             <div class="left">
                 <h2>가비아 글로벌이<br>더 특별한 이유</h2>
@@ -156,6 +162,8 @@
                     <li><img src="images/banner1.png" alt=""></li>
                     <li><img src="images/banner1.png" alt=""></li>
                     <li><img src="images/banner1.png" alt=""></li>
+                    <li><img src="images/banner2.png" alt=""></li>
+                    
                 </ul>
             </div>
         </section>
