@@ -24,5 +24,13 @@ body{font-family: 'Nanum Gothic', sans-serif;}
     width: 48px;height: 48px;
     border: 1px solid #cdcdcd;
     position: absolute;
-    left:calc( 50% + 980px / 2 - 48px );top:38px
+    left:calc( 50% + 980px / 2 - 48px );top:38px;
+    cursor:pointer
 }
+.toggle div{
+    width: 20px;height: 2px;background-color: #666;
+    position: absolute;left:calc( 50% - 10px);
+    top:calc( 50%  - 1px )
+}
+.toggle div:first-child{top:calc( 50% - 9px)}
+.toggle div:last-child{top:calc( 50% + 7px)}
