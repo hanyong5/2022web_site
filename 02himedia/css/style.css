@@ -1,9 +1,9 @@
 @charset "utf-8";
 
-body{font-family: 'Nanum Gothic', sans-serif;}
+body{font-family: 'Nanum Gothic', sans-serif;min-width:980px}
 
 /* header  */
-.headerTopWrap{border-bottom: 1px solid #dcdcdc;margin-bottom: 16px;}
+.headerTopWrap{border-bottom: 1px solid #dcdcdc;margin-bottom: 16px;min-width:980px}
 .headerTop{width: 980px;margin: 0 auto;}
 .topMenu ul{float: right;}
 .topMenu li{float: left;position: relative;}
@@ -16,7 +16,7 @@ body{font-family: 'Nanum Gothic', sans-serif;}
 
 
 #headerWrap h1{
-    margin: 0 auto;width: 151px;
+    margin: 0 auto;width: 151px;margin-bottom: 16px;
     }
 #headerWrap h1 a{color:#333}  
 
@@ -34,3 +34,18 @@ body{font-family: 'Nanum Gothic', sans-serif;}
 }
 .toggle div:first-child{top:calc( 50% - 9px)}
 .toggle div:last-child{top:calc( 50% + 7px)}
+
+
+.mainMenuWrap{background-color: #1D5DA4;}
+.mainMenuWrap .mainMenu{width: 980px;margin: 0 auto}
+.mainMenuWrap .mainMenu li{
+    float: left;width: calc( 100% / 6 );
+    border-left: 1px solid #336DAC;
+}
+.mainMenuWrap .mainMenu li:last-child{border-right: 1px solid #336DAC;}
+.mainMenuWrap .mainMenu li a{
+    display: block;line-height:45px;color:#EAEEF4;text-align: center;
+}
+.mainMenuWrap .mainMenu li a:hover{
+    background: #336DAC;
+}
