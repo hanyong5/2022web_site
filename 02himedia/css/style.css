@@ -3,7 +3,7 @@
 body{font-family: 'Nanum Gothic', sans-serif;}
 
 /* header  */
-.headerTopWrap{border-bottom: 1px solid #dcdcdc;}
+.headerTopWrap{border-bottom: 1px solid #dcdcdc;margin-bottom: 16px;}
 .headerTop{width: 980px;margin: 0 auto;}
 .topMenu ul{float: right;}
 .topMenu li{float: left;position: relative;}
@@ -13,3 +13,16 @@ body{font-family: 'Nanum Gothic', sans-serif;}
 }
 .topMenu li:last-child:after{display: none;}
 .topMenu li a{display: block;padding: 7px 10px;font-size:12px;line-height: 12px}
+
+
+#headerWrap h1{
+    margin: 0 auto;width: 151px;
+    }
+#headerWrap h1 a{color:#333}  
+
+#headerWrap .toggle{
+    width: 48px;height: 48px;
+    border: 1px solid #cdcdcd;
+    position: absolute;
+    left:calc( 50% + 980px / 2 - 48px );top:38px
+}
