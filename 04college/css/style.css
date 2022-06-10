@@ -31,3 +31,31 @@
     width: 20px;height: 20px;background-color: #fff;color:#000;
     float: left;margin-right: 1px;
 }
+
+.headerBottom{height: 115px;background-color: skyblue;}
+
+
+/* section  */
+#section{
+    padding: 70px 0;
+    /* height: 1300px; */
+    /* background-color: blue; */
+    background-image: url(../images/dot.png),url(../images/main_bg1.jpg);
+    background-repeat: repeat,no-repeat;
+    background-position: center;
+    background-size: auto,cover;
+}
+#section .sec1st{height: 140px;background-color: #fff;margin-bottom: 50px;}
+#section .sec2st>ul>li{float: left;width: 300px;height: 225px;}
+
+#section .sec2st>ul>li{background: white;}
+#section .sec2st>ul>li:nth-child(2n){background-color:pink;}
+
+#section .sec2st>ul>li:nth-child(1){width: 900px;height: 450px;}
+#section .sec2st>ul>li:nth-child(2){height: 450px;}
+#section .sec2st>ul>li:nth-child(3){}
+#section .sec2st>ul>li:nth-child(4){}
+#section .sec2st>ul>li:nth-child(5){}
+#section .sec2st>ul>li:nth-child(6){}
+#section .sec2st>ul>li:nth-child(7){}
+#section .sec2st>ul>li:nth-child(8){width: 900px;}
