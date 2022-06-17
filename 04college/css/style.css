@@ -78,5 +78,14 @@
 
 
 #section .sec2st>ul>li:nth-child(6){}
-#section .sec2st>ul>li:nth-child(7){}
 #section .sec2st>ul>li:nth-child(8){width: 900px;}
+
+
+
+#section .sec2st>ul>li:nth-child(7){background-image: url(../images/conImg_07.png);}
+#section .sec2st>ul>li:nth-child(7) a{height: 100%;display: flex;justify-content: center;align-items: center;}
+#section .sec2st>ul>li:nth-child(7) .icon{
+    width: 70px;height: 70px;background-color: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    display: flex;justify-content: center;align-items: center;box-shadow: 0 0 10px rgba(0,0,0,0.5);}
+#section .sec2st>ul>li:nth-child(7) .icon img{transform: scale(0.7) translateX(5px);}
