@@ -30,6 +30,7 @@
 /* sub01  citytour */
 .contents.subpage{
     background: skyblue;
+    padding-bottom: 50px;
 
 }
 .contents.subpage .visual{
@@ -40,8 +41,11 @@
 }
 .contents.subpage .section{
     margin-top: -50px;
-
+    background: white;
+    border-top: 3px solid #0763a2;
+    border-bottom: 3px solid #0763a2;
 }
+
 
 .contents.subpage .visual .txtWrap{
     transform: translateY(-30px);
@@ -53,18 +57,15 @@
     background-image: url(../images/subimg01_.jpg);
 }
 
-.contents.citytour .section{
-    background: white;
-    border-top: 3px solid #0763a2;
-    border-bottom: 3px solid #0763a2;
-}
+
 
 .contents.citytour .section img{margin: 0 auto;}
 
 
 /* sub04 company  */
 .contents.company .visual{
-    background-image: url(../images/subimg02.jpg);
+    /* background-image: url(../images/subimg02.jpg); */
+    background-color: pink;
 }
 
 
