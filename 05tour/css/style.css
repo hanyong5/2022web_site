@@ -21,11 +21,54 @@
 .navbar ul li a:hover{background: #333;color:white}
 
 /* section  */
-.contents{height: 1000px;}
+.contents{}
 .contents.main{
     background: url(../images/bg.jpg) no-repeat center;
     background-size: cover;
 }
+
+/* sub01  citytour */
+.contents.subpage{
+    background: skyblue;
+
+}
+.contents.subpage .visual{
+    /* background-image: url(../images/subimg01_.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+.contents.subpage .section{
+    margin-top: -50px;
+
+}
+
+.contents.subpage .visual .txtWrap{
+    transform: translateY(-30px);
+}
+.contents.subpage .visual .txtWrap h3{
+    font-size: 2em;color:white;
+}
+.contents.citytour .visual{
+    background-image: url(../images/subimg01_.jpg);
+}
+
+.contents.citytour .section{
+    background: white;
+    border-top: 3px solid #0763a2;
+    border-bottom: 3px solid #0763a2;
+}
+
+.contents.citytour .section img{margin: 0 auto;}
+
+
+/* sub04 company  */
+.contents.company .visual{
+    background-image: url(../images/subimg02.jpg);
+}
+
+
+
 
 /* footer  */
 
@@ -36,4 +79,5 @@
 .j-between{justify-content: space-between !important;}
 .a-center{align-items: center !important;}
 .py-5{padding: 3em 0 !important;}
+.py-8{padding: 5em 0 !important;}
 
