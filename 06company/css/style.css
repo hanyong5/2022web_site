@@ -26,8 +26,8 @@
     opacity:0;visibility: hidden;box-shadow: 0 0 10px rgba(0,0,0,.3);
 }
 .submenu li{display: block;line-height: 30px;text-align: center;}
-.navbar>ul>li:hover .submenu{transform:translateY(0px);opacity: 1;visibility: visible;}
-.navbar>ul>li:hover .aBar{transform: scale(1);}
+.navbar>ul>li.on .submenu{transform:translateY(0px);opacity: 1;visibility: visible;}
+.navbar>ul>li.on .aBar{transform: scale(1);}
 
 
 .toggle{
@@ -41,6 +41,7 @@
 .toggle .bar1{transform:translateY(-8px);}
 .toggle .bar3{transform:translateY(8px);}
 
+.navbarClone,.overlay{display: none;}
 
 
 
@@ -73,6 +74,25 @@
     .navbar{display: none;}
     .navbarWrap{padding: 10px 20px;}
     .toggle{display: flex;margin-left: auto;}
+    
+    .navbarClone{
+        position: fixed;
+        width:90%;
+        height: 100%;
+        top: 0;left: -100%;
+        background: pink;
+        display: block;
+        transition:0.5s
+
+    }
+    .overlay{
+        display: none;
+        position: fixed;
+        width: 100%;height: 100%;
+        left: 0;top: 0;
+        background: #000;
+        opacity: 0.5;
+    }
 }
 
 @media (max-width: 575px) {
