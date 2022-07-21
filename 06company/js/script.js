@@ -15,3 +15,4 @@ $(".overlay").click(function(){
     $(".overlay").hide();
 });
 
+$(".navbar>ul").clone().appendTo(".mMenu")
